@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>img/ellipse.png</file>
+        <file>img/eraser.png</file>
+        <file>img/line.png</file>
+        <file>img/open-folder.png</file>
+        <file>img/paint-bucket.png</file>
+        <file>img/paint-palette.png</file>
+        <file>img/pen.png</file>
+        <file>img/rectangle.png</file>
+        <file>img/save-file.png</file>
+        <file>img/color.png</file>
+        <file>img/resize-canvas.png</file>
+    </qresource>
+</RCC>
