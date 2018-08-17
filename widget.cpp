@@ -492,7 +492,6 @@ void Widget::toolbar_init()
     v_btn_layout->addWidget(btn_eraser, 0, Qt::AlignCenter);
     v_btn_layout->addWidget(btn_resize_canvas, 0, Qt::AlignCenter);
 
-    aliasing = new QCheckBox("Aliasing");
     QListWidget *geom_objs_list = new QListWidget;
     QListWidgetItem *ellipse = new QListWidgetItem(geom_objs_list);
     QListWidgetItem *rectangle = new QListWidgetItem(geom_objs_list);
@@ -505,6 +504,7 @@ void Widget::toolbar_init()
     geom_objs_list->setItemWidget(ellipse, btn_elipse);
     geom_objs_list->setItemWidget(rectangle, btn_rectangle);
 
+    aliasing = new QCheckBox("Aliasing");
     v_btn_layout->addWidget(geom_objs_list, 0, Qt::AlignCenter);
     v_btn_layout->addWidget(aliasing, 0, Qt::AlignCenter);
     v_btn_layout->addWidget(slider, 0, Qt::AlignCenter);
